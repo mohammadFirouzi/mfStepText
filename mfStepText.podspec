@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'mfStepText'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of mfStepText.'
+  s.version          = '1.0.0'
+  s.summary          = 'mfStepText displays the text of the sentences step by step'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,25 +18,26 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+mfStepText is a light library that is written in Swift and gives you the sentences in order and character by character.
+It can be used to create dynamic labels or placeholders or anything else.
                        DESC
 
-  s.homepage         = 'https://github.com/mohammad.spz@icloud.com/mfStepText'
+  s.homepage         = 'https://github.com/mohammadFirouzi/mfStepText'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'mohammad.spz@icloud.com' => 'mohammad.spz@icloud.com' }
-  s.source           = { :git => 'https://github.com/mohammad.spz@icloud.com/mfStepText.git', :tag => s.version.to_s }
+  s.author           = { 'Mohammad Firouzi' => 'mohammad.spz@icloud.com' }
+  s.source           = { :git => 'https://github.com/mohammadFirouzi/mfStepText.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '10.0'
 
-  s.source_files = 'mfStepText/Classes/**/*'
+  s.source_files = 'Files/Classes/**/*'
   
   # s.resource_bundles = {
   #   'mfStepText' => ['mfStepText/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  s.frameworks = 'Foundation'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

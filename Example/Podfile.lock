@@ -1,0 +1,16 @@
+PODS:
+  - mfStepText (0.1.0)
+
+DEPENDENCIES:
+  - mfStepText (from `../`)
+
+EXTERNAL SOURCES:
+  mfStepText:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  mfStepText: 3cda8ed08ace106e775b6210425f006afcb010a7
+
+PODFILE CHECKSUM: 6edf02dd488b921f75819e0e354ec20d07d26a13
+
+COCOAPODS: 1.9.3

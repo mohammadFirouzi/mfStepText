@@ -1,0 +1,6 @@
+framework module Pods_mfStepText_Example {
+  umbrella header "Pods-mfStepText_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

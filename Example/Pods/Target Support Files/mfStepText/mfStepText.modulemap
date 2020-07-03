@@ -1,0 +1,6 @@
+framework module mfStepText {
+  umbrella header "mfStepText-umbrella.h"
+
+  export *
+  module * { export * }
+}
