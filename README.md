@@ -50,7 +50,7 @@ class ViewController: UIViewController, mfStepTextDelegate {
         //set custom times if you need
         myTextStepper.charDelay = 0.05
         myTextStepper.sentenceDelay = 1.0
-        // and start it!
+        //and start it!
         myTextStepper.start()
         
     }
@@ -59,7 +59,6 @@ class ViewController: UIViewController, mfStepTextDelegate {
     func mfStepTextChanged(text: String) {
         label.text = text
     }
-
 }
 
 ```
