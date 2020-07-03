@@ -19,7 +19,7 @@ It can be used to create dynamic labels or placeholders or anything else.
 mfStepText is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
-```swift
+```ruby
 pod 'mfStepText'
 ```
 
