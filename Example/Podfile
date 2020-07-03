@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'mfStepText_Example' do
+  pod 'mfStepText', :path => '../'
+
+  target 'mfStepText_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
