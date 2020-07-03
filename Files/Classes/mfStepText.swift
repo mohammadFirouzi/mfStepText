@@ -11,7 +11,7 @@ public class mfStepText {
     
     public var delegate: mfStepTextDelegate? = nil
     
-    public var sentencesArray = [String]()
+    public var sentences = [String]()
     public var sentenceDelay = TimeInterval(1.0)
     public var charDelay = TimeInterval(0.1)
     
@@ -19,8 +19,12 @@ public class mfStepText {
     private var sentenceIndex = 0
     private var charIndex = 0
     private var shouldPassTimer = 0
+    
+    public init(){
+    
+    }
 
-    public func startSteps(){
+    public func start(){
         timer.invalidate()
         timer = Timer.scheduledTimer(timeInterval: charDelay, target: self, selector: #selector(timeReched), userInfo: nil, repeats: true)
     }
@@ -31,15 +35,15 @@ public class mfStepText {
             return
         }
         
-        delegate?.mfStepTextChanged(text: sentencesArray[sentenceIndex].substring(toIndex: charIndex))
+        delegate?.mfStepTextChanged(text: sentences[sentenceIndex].substring(toIndex: charIndex))
         
         
-        if charIndex > sentencesArray[sentenceIndex].count - 1 {
+        if charIndex > sentences[sentenceIndex].count - 1 {
             charIndex = 0
             sentenceIndex += 1
             shouldPassTimer = charDelay == 0 ? 0 : Int(sentenceDelay / charDelay)
         }
-        if sentenceIndex > sentencesArray.count - 1 {
+        if sentenceIndex > sentences.count - 1 {
             sentenceIndex = 0
         }
         charIndex += 1

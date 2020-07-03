@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1160478B24AF0E3C0000FACF /* mfStepText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1160478A24AF0E3C0000FACF /* mfStepText.swift */; };
+		116047AD24AF309A0000FACF /* mfStepText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116047AC24AF309A0000FACF /* mfStepText.swift */; };
 		40A4B0E56CF7A478BA856662A8CE293B /* Pods-mfStepText_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B1EE492659C5EAA4AAD8E1F76AE4194 /* Pods-mfStepText_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		46046DFCCA51D5DB8C9792A6395927AF /* Pods-mfStepText_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C803A308B30E11373C3EE9CEE0CB9A /* Pods-mfStepText_Example-dummy.m */; };
 		5B18381DCC6DC002B535CBB3AA53F6B8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
@@ -39,7 +39,7 @@
 /* Begin PBXFileReference section */
 		019E38A24D6A1A548CF61DCF5095B3CF /* Pods-mfStepText_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-mfStepText_Example.modulemap"; sourceTree = "<group>"; };
 		0EE2846825B2468737D50FC62FFCA95E /* mfStepText-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "mfStepText-Info.plist"; sourceTree = "<group>"; };
-		1160478A24AF0E3C0000FACF /* mfStepText.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mfStepText.swift; sourceTree = "<group>"; };
+		116047AC24AF309A0000FACF /* mfStepText.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mfStepText.swift; sourceTree = "<group>"; };
 		1F663CB72A0965941E1091EDAB317838 /* Pods-mfStepText_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-mfStepText_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		28C803A308B30E11373C3EE9CEE0CB9A /* Pods-mfStepText_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-mfStepText_Example-dummy.m"; sourceTree = "<group>"; };
 		2B1EE492659C5EAA4AAD8E1F76AE4194 /* Pods-mfStepText_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-mfStepText_Tests-umbrella.h"; sourceTree = "<group>"; };
@@ -111,7 +111,7 @@
 		1160478924AF0E120000FACF /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				1160478A24AF0E3C0000FACF /* mfStepText.swift */,
+				116047AC24AF309A0000FACF /* mfStepText.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -405,7 +405,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BBE6494D6665832BD2D394805F16A048 /* mfStepText-dummy.m in Sources */,
-				1160478B24AF0E3C0000FACF /* mfStepText.swift in Sources */,
+				116047AD24AF309A0000FACF /* mfStepText.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

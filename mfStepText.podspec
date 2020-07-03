@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'mfStepText'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'mfStepText displays the text of the sentences step by step'
 
 # This description is used to generate tags and improve search results.
